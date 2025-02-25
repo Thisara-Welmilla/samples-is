@@ -1,11 +1,11 @@
 {
     "federated": [
         {
-            "id": "8a2b49b5-91fa-4f3b-b2d8-d12f7f77dcaa",
+            "id": "8a2b49b5-91fa-4f3b-b2d8-d12f7f77dcaa-1234",
             "username": "peter",
             "pin": "5678",
             "data": {
-              "id": "8a2b49b5-91fa-4f3b-b2d8-d12f7f77dcaa",
+              "id": "8a2b49b5-91fa-4f3b-b2d8-1234",
               "claims": [
                 {
                   "uri": "http://wso2.org/claims/emailaddress",
