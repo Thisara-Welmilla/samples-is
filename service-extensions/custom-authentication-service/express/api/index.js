@@ -15,8 +15,8 @@ const path = require("path");
 
 // Configuration settings
 const config = {
-    AUTH_MODE: process.env.AUTH_MODE || "federated",
-    BASE_WSO2_IAM_PROVIDER_URL: "https://dev.api.asgardeo.io",
+    AUTH_MODE: process.env.AUTH_MODE || "internal",
+    BASE_WSO2_IAM_PROVIDER_URL: "https://stage.api.asgardeo.io",
     HOST_URL: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000",
 };
 
