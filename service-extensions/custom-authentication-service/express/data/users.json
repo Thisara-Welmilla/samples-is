@@ -25,16 +25,12 @@
     ],
     "internal": [
       {
-        "id": "5d009575-8962-4402-94ae-0b14ec0a8d31",
+        "id": "e8c4a93a-d447-4c4d-9644-2c9e9d2617d8",
         "username": "emily",
         "pin": "1234",
         "data": {
-          "id": "5d009575-8962-4402-94ae-0b14ec0a8d31",
+          "id": "e8c4a93a-d447-4c4d-9644-2c9e9d2617d8",
           "claims": [
-            {
-              "uri": "http://wso2.org/claims/emailaddress",
-              "value": "emily@aol.com"
-            },
             {
               "uri": "http://wso2.org/claims/lastname",
               "value": "Ellon"
