@@ -15,9 +15,9 @@ const path = require("path");
 
 // Configuration settings
 const config = {
-    AUTH_MODE: process.env.AUTH_MODE || "federated",
-    BASE_WSO2_IAM_PROVIDER_URL: process.env.BASE_WSO2_IAM_PROVIDER_URL || "https://localhost:9443",
-    HOST_URL: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000",
+    AUTH_MODE: "federated",
+    BASE_WSO2_IAM_PROVIDER_URL: "https://stage.api.asgardeo.io",
+    HOST_URL: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://samples-is.vercel.app/api/authenticate",
 };
 
 // Load users from environment or local file in development

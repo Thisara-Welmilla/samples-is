@@ -8,12 +8,16 @@
               "id": "8a2b49b5-91fa-4f3b-b2d8-d12f7f77dcaa",
               "claims": [
                 {
-                  "uri": "http://wso2.org/claims/emailaddress",
+                  "uri": "http://wso2.org/claims/username",
                   "value": "peter@aol.com"
                 },
                 {
+                  "uri": "http://wso2.org/claims/emailAddresses",
+                  "value": ["pete,r@aol.com", "test@gmail.com"]
+                },
+                {
                   "uri": "http://wso2.org/claims/lastname",
-                  "value": "Parker"
+                  "value": "Par,ker"
                 },
                 {
                   "uri": "http://wso2.org/claims/givenname",
@@ -25,16 +29,12 @@
     ],
     "internal": [
       {
-        "id": "5d009575-8962-4402-94ae-0b14ec0a8d31",
+        "id": "44e9d875-0ccd-438e-8776-36af7a78f8e5",
         "username": "emily",
         "pin": "1234",
         "data": {
-          "id": "5d009575-8962-4402-94ae-0b14ec0a8d31",
+          "id": "44e9d875-0ccd-438e-8776-36af7a78f8e5",
           "claims": [
-            {
-              "uri": "http://wso2.org/claims/emailaddress",
-              "value": "emily@aol.com"
-            },
             {
               "uri": "http://wso2.org/claims/lastname",
               "value": "Ellon"
